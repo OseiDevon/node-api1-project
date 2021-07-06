@@ -3,6 +3,10 @@ const express = require('express')
 
 const server = express()
 
+server.get( '/api/users', (req, res) =>{
+  res.json('users')
+})
+
 // wEJUEWjrwjfnwjrnwfn
 // server.use('*', (req, res))
 
